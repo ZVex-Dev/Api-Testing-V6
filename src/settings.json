@@ -1,0 +1,106 @@
+{
+  "name": "ZDev Api's",
+  "version": "ZVex Dev",
+  "description": "Simple and Easy-to-Use API Documentation",
+  "header": {
+    "status": "Online!",
+    "imageSrc": [
+      "https://media4.giphy.com/media/l0Iy33dWjmywkCnNS/giphy.gif?cid=6c09b952p3mt40j1mgznfi9rwwtccbjl7mtc2kvfugymeinr&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g"
+    ],
+    "imageSize": {
+      "mobile": "80%",
+      "tablet": "40%",
+      "desktop": "40%"
+    }
+  },
+  "apiSettings": {
+    "creator": "ZDev"
+  },
+  "categories": [
+    {
+      "name": "AI (Artificial Intelligence)",
+      "items": [
+        {
+          "name": "LuminAI",
+          "desc": "Talk with LuminAI",
+          "path": "/api/ai/luminai"
+        },
+        {
+          "name": "HydroMind",
+          "desc": "Talk with HydroMind",
+          "path": "/api/ai/hydromind"
+        }
+      ]
+    },
+    {
+      "name": "Downloader",
+      "items": [
+        {
+          "name": "TikTok Downloader",
+          "desc": "Download TikTok videos",
+          "path": "/api/downloader/tiktok"
+        },
+        {
+          "name": "YouTube Downloader",
+          "desc": "Download YouTube videos",
+          "path": "/api/downloader/youtube"
+        },
+        {
+          "name": "Twitter Downloader",
+          "desc": "Download Twitter videos",
+          "path": "/api/downloader/twitter"
+        }
+      ]
+    },
+    {
+      "name": "Utilities",
+      "items": [
+        {
+          "name": "Google Drive",
+          "desc": "Download Google Drive files",
+          "path": "/api/utilities/gdrive"
+        },
+        {
+          "name": "GitHub Repository",
+          "desc": "Get GitHub repository info",
+          "path": "/api/utilities/github"
+        },
+        {
+          "name": "Instagram",
+          "desc": "Fetch Instagram media",
+          "path": "/api/utilities/instagram"
+        },
+        {
+          "name": "Pastebin",
+          "desc": "Fetch raw Pastebin content",
+          "path": "/api/utilities/pastebin"
+        },
+        {
+          "name": "PlayStore",
+          "desc": "Search apps on PlayStore",
+          "path": "/api/utilities/playstore"
+        },
+        {
+          "name": "Spotify",
+          "desc": "Get Spotify track details",
+          "path": "/api/utilities/spotify"
+        }
+      ]
+    },
+    {
+      "name": "Services",
+      "items": [
+        {
+          "name": "Gemini AI",
+          "desc": "Interact with Gemini AI",
+          "path": "/api/services/gemini"
+        },
+        {
+          "name": "BStation Search",
+          "desc": "Search BStation videos",
+          "path": "/api/services/bstation"
+        }
+      ]
+    }
+  ]
+}

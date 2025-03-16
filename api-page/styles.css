@@ -1,0 +1,51 @@
+body {
+    background-color: #121212;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.text-cyan {
+    color: #00ffff;
+}
+
+.bg-cyan {
+    background-color: #00ffff !important;
+}
+
+.border-cyan {
+    border: 2px solid #00ffff !important;
+}
+
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.2);
+}
+
+.banner {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 255, 255, 0.3);
+}
+
+#searchInput {
+    border-radius: 25px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+#searchInput:focus {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.modal-content {
+    box-shadow: 0 10px 20px rgba(0, 255, 255, 0.3);
+}
+
+.btn-cyan {
+    background-color: #00ffff;
+    color: #121212;
+    border-radius: 25px;
+}
+
+.btn-cyan:hover {
+    background-color: #00e5e5;
+}
